@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    font-family: Sharp Sans Bold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height:62px;
+    background:white;
+}
+.Logo-header{
+    width:80%;
+    height:62px;
+    
+}
+.login{
+    width:20%;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign{
+    width:20%;
+    height:62px;
+    text-decoration:underline dotted;
+    color: rgb(107, 110, 121);
+    font-size: 14px;
+    
+}
+.Logo-header img{
+    width: 143px;
+    height: 34px;
+    margin-left: 159px;
+    margin-top: 11px;
+}
+
+.body1{
+    width: 100%;
+    height: 779px;
+    background:white;
+
+}
+.body1 img{
+    width:100%;
+    height:400px;
+}
+.coloumn{
+    width: 478px;
+    height: 283px;
+    background: white;
+    margin-top: -99px;
+    margin-left: 33%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.delivery{
+
+    padding-left: 15px;
+    padding-top: 10px;
+    color: red;
+    
+}
+.coloumn img{
+    width: 20px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.button4{
+    margin-left: 17px;
+    padding-left: 3px;
+    margin-top: 20px;
+    font-size: 11px;
+    color: blue;
+    width: 335px;
+    height: 50px;
+    text-align: left;
+}
+.contactless1{
+    color: black;
+    padding-left: 15px;
+    margin-top: 11px;
+    font-size: 15px;
+    
+
+}
+.photo{
+    background-image: url(Photo/pizza.jpg);
+    width: 100%;
+    height: 51%;
+    background-position: center;
+}
+.contactless{
+    
+    padding-left: 16px;
+    padding-top: 10px;
+    color: black;
+    font-size: 16px;
+}
+.location {
+    width: 328px;
+    height: 37px;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.body1 h1{
+    text-align: center;
+    margin: 100px auto;
+    max-width: 550px;
+    position: relative;
+}
+h1:before{
+    background-color:#000 ;
+    display:block;
+    width:120px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+h1:after{
+    background-color:#000 ;
+    display:block;
+    width:120px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+.body2{
+
+    width:100%;
+    height:530px;
+    background: white;
+}
+.image1
+{  
+    float: left;
+    margin-top: 0px;
+    margin-left: 150px;
+    width: 524px;
+    height: 370px;
+}
+.image2{
+    float: left;
+    margin-top: -370px;
+    margin-left: 685px;
+    width: 524px;
+    height: 370px;
+}
+.button{
+    margin-top: 394px;
+    margin-left: -1061px;
+    background:#0a8020;
+    width: 1061px;
+    height: 64px;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+.body3{
+    
+    width: 100%;
+    height: 230px;
+    background:black;
+}
+.body3-1{
+    float: left;
+    width:25%;
+    height: 200px;
+    background: black;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.h3{
+    padding-top: 36px;
+    margin-left: 78px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding-left: 80px;
+    line-height: 1.3em;
+    
+}
+.body3-2
+{
+    float: left;
+    width:25%;
+    height: 200px;
+    background: black;
+}
+.body3-3
+{
+    float: left;
+    width:25%;
+    height: 200px;
+    background: black;
+}
+.body3-4
+{
+    float: left;
+    width:25%;
+    height: 200px;
+    background:black;
+}
+.footer1{
+    width: 100%;
+    height: 50px;
+    background:black;
+
+}
+.appstore{
+    float: left;
+    width: 132px;
+    height: 44px;
+    display: block;
+    margin-left: 567px;
+    margin-top: 0px;
+}
+.playstore{
+    float: left;
+    width: 132px;
+    height: 44px;
+    display: block;
+    margin-left: 19px;
+    margin-top: 0px;
+}
+.footer2{
+    width: 100%;
+    height: 70px;
+    background:red;
+
+}
+.footer2-1{
+    float: left;
+    width: 50%;
+    height: 70px;
+    background:black;
+
+}
+
+.footer2 h3{
+    float: left;
+    margin: 0;
+    margin-left: 78px;
+    padding-top: 21px;
+    color: white;
+}
+.feedback{
+    float: left;
+    margin-left: 9px;
+    margin-top: 17px;
+    width: 155px;
+    height: 39px;
+    border-radius: 8px;
+    border-style: none;
+}
+.footer2-2{
+    float: left;
+    width: 50%;
+    height: 70px;
+    background:black;
+
+}
+.footer2-2 h2{
+    float: left;
+    padding-left: 260px;
+    padding-top: 3px;
+    color: white;
+}
+.footer2-2 a{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 28px;
+    margin-left: 27px;
+    color: white;
+}
+.footer3{
+    width:100%;
+    height:220px;
+    background:black;
+    text-align: center;
+}
+p{
+    padding-left: 64px;
+    padding-top: 10px;
+    padding-right: 75px;
+    margin: 0;
+    color: #E1D9D1;  
+}
+.footer3 img{
+height:73px;
+margin-top: 35px;
+background: white;
+border-radius: 2px;
+
+}
+
